@@ -8,12 +8,11 @@ public class TypeCasting {
 		int iJumpo = 1500;
 		long lSum = (long)a * 12 * iJikwon * iJumpo;
 		
+		System.out.println("<<ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î°Çºï¿½>>");
+		System.out.printf("ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ¿ï¿½ : %sï¿½ï¿½\n", String.format("%,d", a));
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : %dï¿½ï¿½\n", iJikwon);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : %sï¿½ï¿½\n", String.format("%,d", iJumpo));
 		
-		System.out.println("<<µð¹Ìº£³× ¿¬°£ ÀÎ°Çºñ>>");
-		System.out.printf("¿ù Æí±Õ ±Þ¿© : %s¿ø\n", String.format("%,d", a));
-		System.out.printf("Á¡Æ÷ ³» Á÷¿ø ¼ö : %d¸í\n", iJikwon);
-		System.out.printf("Á¡Æ÷ ¼ö : %s°³\n", String.format("%,d", iJumpo));
-		
-		System.out.printf("¿¬°£ ÀÎ°Çºñ : %s¿ø", String.format("%,d", lSum));
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ ï¿½Î°Çºï¿½ : %sï¿½ï¿½", String.format("%,d", lSum));
 	}
 }
