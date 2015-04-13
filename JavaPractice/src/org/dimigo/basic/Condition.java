@@ -8,7 +8,7 @@ public class Condition {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int cType = 1;//1:고속버스 2:경차 3:그외
-		int d = 10;
+		int d = 20;
 		int fee = 0;
 		
 		switch(cType)
