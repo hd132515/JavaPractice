@@ -29,6 +29,8 @@ public class Question {
 		if("큐브고기".equals(answer3)){
 			System.out.println("정답!!!!!!!!!!!!");
 		}
+		
+		scanner.close();
 	}
 
 }
