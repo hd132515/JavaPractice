@@ -1,5 +1,6 @@
 package org.dimigo.oop;
 
+import java.security.spec.EncodedKeySpec;
 import java.util.Scanner;
 
 public class Score {
@@ -24,6 +25,8 @@ public class Score {
 				.append("Æò±Õ : ").append(String.format("%.1f", (math+kor+eng) / 3.f)).append(" Á¡\n").toString();
 		
 		System.out.println(builtStr);
+		
+		scanner.close();
 	}
 
 }
