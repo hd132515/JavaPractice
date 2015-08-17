@@ -24,7 +24,7 @@ public class FigureTest {
 		System.out.println();
 		
 		c.printCenter();
-		r.printCenter();
+		t.printCenter();
 		r.printCenter();
 
 	}
