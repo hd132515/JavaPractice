@@ -26,6 +26,12 @@ public class SmartPhone {
 	}
 	
 	public void useSepecialFunction(){
+		if(this instanceof IPhone){
+			((IPhone)this).useAirDrop();
+		}
+		else if(this instanceof Galaxy){
+			((Galaxy)this).useWirelessCharging();
+		}
 	}
 	
 	@Override
